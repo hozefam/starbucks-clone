@@ -34,10 +34,10 @@ const Header = ({ menuPage }) => {
       </div>
       <div className='header__right'>
         <Example />
-        <FindAStore />
 
         {!user ? (
           <>
+            <FindAStore />
             <SignInButton />
             <SignUpButton />
           </>
